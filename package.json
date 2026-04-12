@@ -1,0 +1,22 @@
+{
+  "name": "vraman",
+  "version": "1.0.0",
+  "description": "this is a traveling application for mainly bus",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bus"
+  ],
+  "author": "nilay ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "slugify": "^1.6.6"
+  }
+}
